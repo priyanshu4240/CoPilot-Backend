@@ -6,7 +6,7 @@ const fetch = require("node-fetch");
 
 const app = express();
 app.use(cors({
-  origin: ["http://localhost:3000", "https://co-pilot-frontend-gamma.vercel.app/"],
+  origin: ["http://localhost:3000", "https://co-pilot-frontend-gamma.vercel.app"],
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type"]
 }));
