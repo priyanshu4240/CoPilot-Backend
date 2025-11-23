@@ -75,4 +75,5 @@ app.post("/generate", async (req, res) => {
   res.json({ code: customFormat(out) });
 });
 
-app.listen(4000, () => console.log("Backend running on port 4000"));
+// Needed for Vercel
+module.exports = app;
